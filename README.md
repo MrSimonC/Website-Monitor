@@ -1,6 +1,5 @@
 # Website-Monitor
 
-Checks for a value change in a specific tag, then notifies a slack channel
+Currently checks for sainsburys price drops in jam doughnuts 🍩and notifys a slack channel when there is a change in price.
 
-Currently a work-in-progress. 
-Stopped at the moment as example site requires javascript before serving the html.
+Uses selenium, phantom js and .net core 2.1 (as javascript is required before page content will load on certain links - like Sainsburys).
